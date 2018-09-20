@@ -1,7 +1,7 @@
 # cyberpatriot-database
 A website that displays all the past scores that are entered into a MySQL database. Since I do not participate in the competition anymore I am uploading the source for the website that our team used to view all of the previous points we had scored. For obvious reasons, the database is not being uploaded but the structure for the Cyber_Patriot and Username databases can be easily replicated by looking through the code. 
 
-# index.html
+## index.html
 The landing page for the website
 
 ## css/style.css
