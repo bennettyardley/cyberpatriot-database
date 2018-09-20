@@ -1,0 +1,219 @@
+a {
+    color: powderblue;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #141422;
+}
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li.menu {
+    float: left;
+}
+li.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.5s;
+}
+li.menu a:hover {
+    background-color: #149286;
+}
+ul.checklist {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+li.checklist {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+.active {
+    background-color: #BD452C;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.data-table {
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 537px;
+}
+.data-table th,
+.data-table td {
+    border: 1px solid #e1edff;
+    padding: 7px 17px;
+}
+.data-table caption {
+    margin: 7px;
+}
+.data-table thead th {
+    background-color: #149286;
+    color: #FFFFFF;
+    border-color: #d3d3d3 !important;
+    text-transform: uppercase;
+}
+.data-table tbody td {
+    color: #353535;
+}
+.data-table tbody td:first-child,
+.data-table tbody td:nth-child(4),
+.data-table tbody td:last-child {
+    text-align: right;
+}
+.data-table tbody tr:nth-child(odd) td {
+    background-color: #f4fbff;
+    transition: .5s;
+}
+.data-table tbody tr:nth-child(even) td {
+    background-color: #BDBDBD;
+    transition: .5s;
+}
+.data-table tbody tr:hover td {
+    background-color: #BD452C;
+    border-color: white;
+}
+.data-table tfoot th {
+    background-color: #e5f5ff;
+    text-align: right;
+}
+.data-table tfoot th:first-child {
+    text-align: left;
+}
+.data-table tbody td:empty {
+    background-color: #ffcccc;
+}
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #149286;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+}
+input[type=submit]:hover {
+    background-color: #BD452C;
+}
+.form {
+    top: 15%;
+    position: relative;
+    transform: translateY(-15%);
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.liscense {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1px;
+    background-color: #141422;
+    text-align: center;
+}
+.form {
+    top: 15%;
+    position: relative;
+    transform: translateY(-15%);
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#editButton {
+    background-color: white;
+    color: black;
+    margin: 20px auto;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    transition: .5s;
+}
+#editButton:hover {
+    background-color: #149286;
+}
+#editButton:active {
+    background-color: #BD452C;
+}
+#editLink {
+    width: 200px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.noSelect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
