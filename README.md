@@ -11,13 +11,13 @@ The main stylesheet for the website
 The error pages that can be configured in your webserver
 
 ## js/sorttable.js
-A script writen by Stuart Langridge to sort tables on a website available [here](https://www.kryogenix.org/code/browser/sorttable/)
+A script writen by Stuart Langridge to sort tables on a website, available [here](https://www.kryogenix.org/code/browser/sorttable/)
 
 ## pages/connect.php
-Connects to the database
+Connects to the points database
 
 ## pages/connect_login.php
-Connects to the database
+Connects to the username database
 
 ## pages/database.php
 Loads the database into a table
