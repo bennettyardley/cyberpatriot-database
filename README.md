@@ -8,7 +8,7 @@ The landing page for the website
 The main stylesheet for the website
 
 ## error/*.html
-The error pages that can be configured in apache or nginx
+The error pages that can be configured in your webserver
 
 ## js/sorttable.js
 A script writen by Stuart Langridge to sort tables on a website available [here](https://www.kryogenix.org/code/browser/sorttable/)
