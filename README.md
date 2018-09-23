@@ -13,6 +13,7 @@ The error pages that can be configured in your webserver
 ## js/sorttable.js
 A script writen by Stuart Langridge to sort tables on a website, available [here](https://www.kryogenix.org/code/browser/sorttable/)
 
+## pages/connect.php
 Connects to the points database
 
 ## pages/connect_login.php
